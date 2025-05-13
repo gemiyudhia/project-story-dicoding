@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/favicon.png" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <title>App</title>
+    
+    <link rel="manifest" href="/manifest.json" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script type="module" src="/scripts/index.js"></script>
+  </head>
+  <body>
+    <a href="#main-content" class="skip-to-content">Skip to Content</a>
+    <header>
+      <div class="main-header container">
+        <a class="brand-name" href="#/">App</a>
+        
+        <nav id="navigation-drawer" class="navigation-drawer">
+          <ul id="nav-list" class="nav-list">
+            <li><a href="#/">Beranda</a></li>
+            <li><a href="#/add">Tambah</a></li>
+            <button id="installBtn" style="display: none;">Install App</button>
+
+          </ul>
+        </nav>
+
+        <button id="drawer-button" class="drawer-button">☰</button>
+      </div>
+    </header>
+
+    <main id="main-content" class="main-content" tabindex="-1"></main>
+  </body>
+</html>
